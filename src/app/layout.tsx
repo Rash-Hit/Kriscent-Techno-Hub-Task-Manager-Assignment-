@@ -1,6 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import {
+  ClerkProvider,
+  SignIn,
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
+import Navbar from "@/components/Navbar";
+import { auth } from "@clerk/nextjs/server";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,9 +24,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { sessionClaims } = auth();
   return (
     <html lang="en">
-      <body className={`${inter.className} h-screen`}>{children}</body>
+      <body className={`${inter.className} h-screen`}>
+        <ClerkProvider>
+          <SignedOut>
+            <SignIn />
+          </SignedOut>
+          <SignedIn>
+            {/* <UserButton></UserButton> */}
+            <Navbar role={sessionClaims?.metadata.role || "USER"} />
+            {children}
+          </SignedIn>
+        </ClerkProvider>
+      </body>
     </html>
   );
 }

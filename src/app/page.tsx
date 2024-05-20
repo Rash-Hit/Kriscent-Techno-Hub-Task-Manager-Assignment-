@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+"use client";
+import { useClerk } from "@clerk/nextjs";
+import { addUser } from "./actions/userActions";
+import { useEffect } from "react";
+import Tasks from "@/components/Tasks";
 
 export default function Home() {
   return (
-    <div className="">
-      <Button variant={"outline"}>Hello World</Button>
-    </div>
+    <>
+      <Tasks />
+    </>
   );
 }
