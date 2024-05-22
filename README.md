@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Frontend and Backend - Next.JS
+- Used Server Actions  
+- Used Drizzle ORM 
+- Used Clerk Auth 
+- Used Postgres 
+- Used Shadcn
 
-## Getting Started
+And Here are the few Images 
 
-First, run the development server:
+![image](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/be0f0176-d0d6-49e4-93f3-ce8dadf8eafc)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/d4cb088e-be4d-443a-b2b5-70baccf968c0)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/14ec1550-4de0-4ddb-a47d-5cefba452f2f)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Screenshot 2024-05-20 185400](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/6b9bb41b-7b12-497b-aa90-8f15b7e512c8)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/0c6c8f95-8de2-4ed8-922d-2424fa912c9c)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/Rash-Hit/Kriscent-Techno-Hub-Task-Manager-Assignment-/assets/73944177/9ed5af65-ffe2-4169-82d7-74dcd43b0621)
